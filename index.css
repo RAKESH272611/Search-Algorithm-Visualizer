@@ -1,0 +1,97 @@
+body{
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.navbar button:first-child{
+    border: none;
+    padding: 3px;
+    background-color: black;
+    margin-left: 300px;
+    color: rgb(7, 221, 244);
+    font-size: 20px;
+}
+
+.navbar button:last-child{
+    border:none;
+    background-color: black;
+    margin-right: 300px;
+    color: rgb(7, 221, 244);
+    font-size: 20px;
+}
+
+.navbar h2{
+    margin: auto;
+    padding: 20px;
+}
+
+.main{
+    margin: auto;
+    background-color:  rgb(72 41 75);
+    height: 400px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.maincontent{
+    height: 30px;
+    width: 43px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.detail input{
+    padding: 5px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.detail button{
+    /* margin: 15px; */
+    padding: 10px;
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.detail button:hover{
+    background-color: crimson;
+}
+
+.last button{
+    margin-left: 620px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
+
+.last button:hover{
+    background-color: rgb(38, 194, 38);
+}
+
+button{
+    cursor: pointer;
+}
